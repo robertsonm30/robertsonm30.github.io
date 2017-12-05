@@ -1,0 +1,77 @@
+.header {
+	width: 960px;
+	background: #ffffff;
+	height: 100%;
+	position: relative;
+
+}
+
+.headertxt {
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 20px 20px 20px 20px;
+	width: 220px;
+
+}
+
+.nav {
+	position: absolute;
+	right: 0px;
+	top: 30px;
+}
+
+.background {
+	background-image: url("../images/dust.png");
+}
+
+.content {
+	float: left;
+	height: 100%;
+	width: 600px;
+	background: #ffffff;
+	margin: 0px 20px 0px 0px;
+	border: 2px;
+	border-color: #dedede;
+}
+
+.sidebar {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 0px 0px 0px 20px;
+	background: #ffffff;
+}
+
+.footertopbar {
+	background: #4ba9a5;
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+
+.footerlowerbar {
+	background: #666666;
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+
+.image {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding: 0px 10px 10px 10px;
+}
+.hr {
+	width: 95%;
+	margin-bottom: 10px;
+	
+}
+
+.padme {
+	padding: 0px 10px 10px 10px;s
+}
+
+
+/*20px right main section margin
+20px left sidebar margin */
