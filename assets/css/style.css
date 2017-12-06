@@ -50,7 +50,7 @@ body {
 
 .sidebar {
 	position: absolute;
-	height: 200px;
+	height: 250px;
 	width: 250px;
 	margin: 0px 0px 0px 20px;
 	background: #ffffff;
@@ -95,7 +95,7 @@ hr {
 }
 
 .connect {
-	padding: 0px 0px 0px 50px;
+	padding: 0px 0px 0px 30px;
 	color: #4aaaa5;
 }
 
@@ -106,4 +106,13 @@ hr {
 
 .margintext {
 	margin: 0px 10px 0px 10px;
+}
+
+.icons {
+	width: 60px;
+	height: 60px;
+}
+
+.bumper {
+	margin-left: 30px;
 }
