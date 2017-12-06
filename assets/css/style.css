@@ -1,35 +1,43 @@
+/*Header Background*/
+body {
+	margin: 0px;
+}
+
 .header {
-	top: 0;
 	width: 960px;
 	background: #ffffff;
-	height: 77px;
-	position: absolute;
+	height: 44px;
 	margin-bottom: 30px;
-
 }
 
-.headertxt {
+/*My Name Block*/
+
+.nameblock {
 	color: #ffffff;
 	background: #4aaaa5;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 8px 20px;
 	width: 220px;
-	position: relative;
-	top: 0;
-
+	display: inline;
+	margin-top: 50px;
 }
 
-.nav {
-	position: relative;
-	right: 0px;
-	top: 0px;
+/*Nav bar items*/
+
+.navbar {
+	display: inline;
+	right: 100px;
+	margin-left: 500px;
 }
+
+/*background image set*/
 
 .background {
 	background-image: url("../images/dust.png");
 }
 
+/*Main Content Block*/
+
 .content {
-	float: left;
 	height: 100%;
 	width: 650px;
 	background: #ffffff;
@@ -38,47 +46,64 @@
 	border-color: #dedede;
 }
 
+/*Side bar with Float*/
+
 .sidebar {
-	float: left;
+	position: absolute;
 	height: 200px;
-	width: 270px;
+	width: 250px;
 	margin: 0px 0px 0px 20px;
 	background: #ffffff;
+	top: 75px;	
+	left: 690px;
 }
 
-.footertopbar {
-	background: #4ba9a5;
-	position: fixed;
-	bottom: 0;
-	width: 100%
-}
-
-.footerlowerbar {
-	background: #666666;
-	position: fixed;
-	bottom: 0;
-	width: 100%
-}
-
-.image {
-	height: 200px;
-	width: 200px;
-	float: left;
-	padding: 0px 10px 10px 10px;
-}
-.hr {
-	width: 95%;
-	margin-bottom: 10px;
-	
-}
-
-.padme {
-	padding: 0px 10px 10px 10px;s
-}
+/*Clear float both*/
 
 .clearfloat {
 	clear: both;
 }
 
-/*20px right main section margin
-20px left sidebar margin */
+/*set image size*/
+
+.image {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding: 0px 10px 0px 10px;
+}
+
+/*main footer*/
+
+.footer {
+	background: #666666;
+	bottom: 0;
+	width: 100%;
+}
+
+/*footer accent bar*/
+
+.footeracc {
+	background: #4ba9a5;
+	bottom: 0;
+	width: 100%
+}
+
+hr {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.connect {
+	padding: 0px 0px 0px 50px;
+	color: #4aaaa5;
+}
+
+.aboutme {
+	padding: 15px 0px 0px 10px;
+	color: #4aaaa5;
+}
+
+.margintext {
+	margin: 0px 10px 0px 10px;
+}
