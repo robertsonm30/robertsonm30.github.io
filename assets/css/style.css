@@ -8,6 +8,7 @@ body {
 	background: #ffffff;
 	height: 44px;
 	margin-bottom: 30px;
+	border-bottom: 2px solid #cecece;
 }
 
 /*My Name Block*/
@@ -126,4 +127,8 @@ hr {
 	display: inline;
 	vertical-align: -350%;
 	color: #ffffff;
+}
+
+.maxw {
+	width: 600px;
 }
