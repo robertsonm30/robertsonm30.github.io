@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-	width: 960px;
+	width: 100%;
 	background: #ffffff;
 	height: 44px;
 	margin-bottom: 30px;
@@ -77,16 +77,21 @@ body {
 
 .footer {
 	background: #666666;
-	bottom: 0;
 	width: 100%;
+	height: 100px;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
 }
 
 /*footer accent bar*/
 
 .footeracc {
 	background: #4ba9a5;
-	bottom: 0;
-	width: 100%
+	width: 100%;
+	height: 10px;
+	bottom: 100px;
+	position: fixed;
 }
 
 hr {
@@ -115,4 +120,10 @@ hr {
 
 .bumper {
 	margin-left: 30px;
+}
+
+.copy {
+	display: inline;
+	vertical-align: -350%;
+	color: #ffffff;
 }
