@@ -3,31 +3,37 @@ body {
 	margin: 0px;
 }
 
-.header {
-	width: 100%;
-	background: #ffffff;
-	height: 44px;
-	margin-bottom: 30px;
-	border-bottom: 2px solid #cecece;
+.center {
+	margin: 0 auto;
 }
 
 /*My Name Block*/
-
 .nameblock {
 	color: #ffffff;
 	background: #4aaaa5;
-	padding: 20px 20px 8px 20px;
-	width: 220px;
+	height: 80px;
+	padding: 20px 20px 45px 20px;
+	/*width: 220px;*/
 	display: inline;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
+	/*margin: 0 auto;*/
+	margin-left: 450px;
+	/*text-align: center;*/
+	/*top: 50%;*/
+
 }
+
+
+
 
 /*Nav bar items*/
 
 .navbar {
 	display: inline;
-	right: 100px;
-	margin-left: 500px;
+	/*right: 100px;*/
+	margin-left: 485px;
+	
+
 }
 
 /*background image set*/
@@ -44,7 +50,7 @@ body {
 	background: #ffffff;
 	margin: 0px 20px 0px 0px;
 	border: 2px;
-	border-color: #dedede;
+	margin: 0 auto;
 }
 
 /*Side bar with Float*/
@@ -52,11 +58,11 @@ body {
 .sidebar {
 	position: absolute;
 	height: 250px;
-	width: 250px;
-	margin: 0px 0px 0px 20px;
+	width: 270px;
+	margin: 0px 0px 0px 0px;
 	background: #ffffff;
-	top: 75px;	
-	left: 690px;
+	top: 112px;	
+	left: 1120px;
 }
 
 /*Clear float both*/
@@ -83,6 +89,7 @@ body {
 	bottom: 0;
 	position: fixed;
 	text-align: center;
+
 }
 
 /*footer accent bar*/
@@ -131,4 +138,13 @@ hr {
 
 .maxw {
 	width: 600px;
+}
+
+.header {
+	width: 100%;
+	background: #ffffff;
+	height: 80px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #cecece;
+	/*margin: 0 auto;*/
 }
