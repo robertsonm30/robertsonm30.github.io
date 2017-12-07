@@ -4,6 +4,7 @@ body {
 }
 
 .center {
+	width: 	960px;
 	margin: 0 auto;
 }
 
@@ -11,27 +12,26 @@ body {
 .nameblock {
 	color: #ffffff;
 	background: #4aaaa5;
-	height: 80px;
-	padding: 20px 20px 45px 20px;
+	height: 60px;
+	padding: 20px 20px 0px 20px;
+	float: 	left;
 	/*width: 220px;*/
-	display: inline;
+	/*display: inline;*/
 	/*margin-top: 50px;*/
 	/*margin: 0 auto;*/
-	margin-left: 450px;
+	margin: 0 auto;
 	/*text-align: center;*/
 	/*top: 50%;*/
 
 }
 
 
-
-
 /*Nav bar items*/
 
 .navbar {
-	display: inline;
+	float: 	right;
+	padding-top: 	25px;
 	/*right: 100px;*/
-	margin-left: 485px;
 	
 
 }
@@ -48,21 +48,22 @@ body {
 	height: 100%;
 	width: 650px;
 	background: #ffffff;
-	margin: 0px 20px 0px 0px;
-	border: 2px;
-	margin: 0 auto;
+	margin: 0px 0px 0px 0px;
+	display: inline-block;	
+	/*border: 2px;*/
+	/*margin: 0 auto;*/
 }
 
 /*Side bar with Float*/
 
 .sidebar {
-	position: absolute;
+	float: 	right;
 	height: 250px;
 	width: 270px;
-	margin: 0px 0px 0px 0px;
+	/*margin: 0px 0px 0px 0px;*/
 	background: #ffffff;
-	top: 112px;	
-	left: 1120px;
+	/*top: 112px;	*/
+	/*left: 1120px;*/
 }
 
 /*Clear float both*/
@@ -141,7 +142,7 @@ hr {
 }
 
 .header {
-	width: 100%;
+	width: 960px;
 	background: #ffffff;
 	height: 80px;
 	margin-bottom: 30px;
