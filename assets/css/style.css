@@ -1,4 +1,6 @@
 /*Header Background*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 body {
 	margin: 0px;
 }
@@ -15,14 +17,13 @@ body {
 	height: 60px;
 	padding: 20px 20px 0px 20px;
 	float: 	left;
+	margin: 0 auto;
+	/*text-align: center;*/
+	/*top: 50%;*/
 	/*width: 220px;*/
 	/*display: inline;*/
 	/*margin-top: 50px;*/
 	/*margin: 0 auto;*/
-	margin: 0 auto;
-	/*text-align: center;*/
-	/*top: 50%;*/
-
 }
 
 
@@ -31,6 +32,7 @@ body {
 .navbar {
 	float: 	right;
 	padding-top: 	25px;
+	padding-right: 15px;
 	/*right: 100px;*/
 	
 
@@ -76,7 +78,7 @@ body {
 
 .image {
 	height: 200px;
-	width: 200px;
+/*	width: 200px;*/
 	float: left;
 	padding: 0px 10px 0px 10px;
 }
@@ -148,4 +150,106 @@ hr {
 	margin-bottom: 30px;
 	border-bottom: 2px solid #cecece;
 	/*margin: 0 auto;*/
+}
+
+/* unvisited link */
+a:link {
+    color: #0000ff;
+}
+
+/* visited link */
+a:visited {
+    color: #adc2eb;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff3300;
+}
+
+/* selected link */
+a:active {
+    color: #006600;
+}
+
+.portfolioimage {
+	padding: 20px 20px 20px 20px;
+		
+}
+
+.leftbump {
+	margin-left: 80px;
+}
+
+.floattag1 {
+	color: #ffffff;
+	background: #4aaaaa;
+	position: relative;
+	/*top: 390px;*/
+	width: 200px;
+	text-align: center;
+	left: 100px;
+	bottom: 320px;
+
+}
+
+.floattag2 {
+	color: #ffffff;
+	background: #4aaaaa;
+	position: relative;
+	/*top: 390px;*/
+	width: 200px;
+	text-align: center;
+	left: 344px;
+	bottom: 368px;
+
+}
+
+.floattag3 {
+	color: #ffffff;
+	background: #4aaaaa;
+	position: relative;
+	/*top: 390px;*/
+	width: 200px;
+	text-align: center;
+	left: 100px;
+	bottom: 171px;
+
+}
+
+.floattag4 {
+	color: #ffffff;
+	background: #4aaaaa;
+	position: relative;
+	/*top: 390px;*/
+	width: 200px;
+	text-align: center;
+	left: 344px;
+	bottom: 220px;
+
+}
+
+/*for form*/
+
+.button {
+	margin: 20px 0px 0px 20px;
+	
+}
+
+.message {
+	margin: 20px 0px 0px 20px;
+	height: 200px;
+}
+
+.nandm {
+	margin: 20px 0px 0px 20px;
+
+}
+
+.topbump {
+	margin-bottom: 10px;
+}
+
+.textup {
+	font-family: 'Roboto Condensed', sans-serif;
 }
