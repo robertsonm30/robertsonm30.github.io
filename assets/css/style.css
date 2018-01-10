@@ -10,6 +10,12 @@ body {
 	margin: 0 auto;
 }
 
+.twoh {
+	width: 200px;
+	height: 200px;
+}
+
+
 /*My Name Block*/
 .nameblock {
 	color: #ffffff;
